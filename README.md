@@ -29,8 +29,8 @@
 - Do not bind your CSS and JS ooto the same class in HTML. 
 - It is much cleaner, more transparent, and more maintainable to bind JS onto specific classes
 
->e.g.
-><input type="submit" class="btn  js-btn" value="Follow" />```
+> e.g.
+<input type="submit" class="btn  js-btn" value="Follow" />
 
 ### Why CSS naming conventions?
 - Know what a selector does, just by looking at its name (what type of thing a class does)
