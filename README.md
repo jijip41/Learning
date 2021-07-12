@@ -12,10 +12,8 @@
 ### CSS naming convention?
 - Use hyphen Delimited string
 >e.g.
-
 >.redBox{...} (X)
-<br>
-.red-box{...} (O)
+>.red-box{...} (O)
 
 - The BEM naming convention - more structured naming convention // It is used for larger, more interrelated pieces of UI that require a number of classes
 
