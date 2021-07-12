@@ -11,17 +11,19 @@
 
 ### CSS naming convention?
 - Use hyphen Delimited string
-```e.g.```
+>e.g.
+
+>.redBox{...} (X)
 <br>
-```.redBox{...} (X)```
+.red-box{...} (O)
+
+- The BEM naming convention - more structured naming convention // It is used for larger, more interrelated pieces of UI that require a number of classes
+
+> Hyphens for blocks - The sole root of the component
 <br>
-```.red-box{...} (O)```
-- The BEM naming convention - more structured naming convention // It is used for larger, more interrelated pieces of UI that require a number of classes<br>
-```- Hyphens for blocks - The sole root of the component```
+> Underscores for elements - A component part of the Block
 <br>
-```- Underscores for elements - A component part of the Block```
-<br>
-```- Double hyphens for modifiers - A variant or extension of the Block```
+> Double hyphens for modifiers - A variant or extension of the Block
 <br>
 
 ### JavaScript Hooks?
