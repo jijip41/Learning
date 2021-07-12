@@ -20,19 +20,16 @@
 - The BEM naming convention - more structured naming convention // It is used for larger, more interrelated pieces of UI that require a number of classes
 
 > Hyphens for blocks - The sole root of the component
-<br>
 > Underscores for elements - A component part of the Block
-<br>
 > Double hyphens for modifiers - A variant or extension of the Block
 <br>
 
 ### JavaScript Hooks?
 - Do not bind your CSS and JS ooto the same class in HTML. 
 - It is much cleaner, more transparent, and more maintainable to bind JS onto specific classes
-<br>
-```e.g.```
-<br>
-```<input type="submit" class="btn  js-btn" value="Follow" />```
+
+>e.g.
+><input type="submit" class="btn  js-btn" value="Follow" />```
 
 ### Why CSS naming conventions?
 - Know what a selector does, just by looking at its name (what type of thing a class does)
